@@ -1,0 +1,53 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint for name entry [CHAR LIMIT=20] -->
+    <string name="name_hint">Enter name here</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings">Toppings</string>
+
+    <!-- Whipped Cream CheckBox text [CHAR LIMIT=20] -->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!-- Chocolate CheckBox text [CHAR LIMIT=20] -->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Quantity header text [CHAR LIMIT=20] -->
+    <string name="quantity_header">Quantity</string>
+
+    <!-- Initial quantity value [CHAR LIMIT=5] -->
+    <string name="initial_quantity_value">2</string>
+
+    <!-- Order button text text [CHAR LIMIT=20] -->
+    <string name="order_button">Order</string>
+
+
+    <!-- Thank you message for the order summary [CHAR LIMIT=none] -->
+    <string name="thank_you">Thank You!</string>
+
+    <!-- Name for the order summary. It will be shown in the format of "Name: Amy" where Amy is the user's name. [CHAR LIMIT=non]-->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <!-- Order summary info, which shows if it has whipped cream topping. It will be shown in the format of "Add whipped cream: yes" where yes is the info. [CHAR LIMIT=non]-->
+    <string name="order_summary_whipped_cream">Add whipped cream: <xliff:g id="withWhippedCream" example="yes">%s</xliff:g></string>
+
+    <!-- Order summary info, which shows if it has whipped cream topping. It will be shown in the format of "Add whipped cream: yes" where yes is the info. [CHAR LIMIT=non]-->
+    <string name="order_summary_chocolate">Add chocolate: <xliff:g id="withChocolate" example="yes">%s</xliff:g></string>
+
+    <!-- Order summary info, which shows quantity. It will be shown in the format of "AQuantity: 2" where 2 is the quantity. [CHAR LIMIT=non]-->
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%s</xliff:g></string>
+
+    <!-- Total price for the order summary. It will be shown in the format of "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]-->
+    <string name="order_summary_price">Total: <xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <!-- Subject line for the order summary email. It will be in the format of "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]-->
+    <string name="order_summary_email_subject">Just Java order for  <xliff:g id="name" example="Amy">%s</xliff:g></string>
+
+    <!-- Is used for true value in the changeBoolToYesOrNo method [CHAR LIMIT=none] -->
+    <string name="answer_yes">yes</string>
+
+    <!-- Is used for true value in the changeBoolToYesOrNo method [CHAR LIMIT=none] -->
+    <string name="answer_no">no</string>
+
+</resources>
